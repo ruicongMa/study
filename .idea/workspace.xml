@@ -2,226 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7423afb7-0c56-4590-9ee5-ad1efdf7f4f1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/leetcode/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/leetcode/Exec_1101.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/leetcode/Exec_1101_demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/leetcode/FindMedianSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/leetcode/LongestPalindrome_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/leetcode/UnionFindSetDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/avltree/AVLTreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/binarysorttree/BinarySortTreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/cas/CompareAndSwapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/cas/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/dac/HanoitowerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/dijkstra/DijkstraDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/dynamic/Exec_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/dynamic/Exec_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/dynamic/Exec_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/dynamic/Exec_04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/dynamic/Exec_05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/dynamic/Exec_06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/dynamic/Exec_07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/dynamic/KnapsackProblemDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/dynamic/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/dynamic/package.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/exec/Exec_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/floyd/FloydDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/graph/GraphDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/greedy/GreedySetCoverDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/hashtab/HashTabDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/horse/HorseChessBoardDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/huffmantree/HuffmanTreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/kmp/KmpDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/kruskal/BusStopCaseDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/linkedlist/DoubleLinkedListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/linkedlist/Exec_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/linkedlist/Exec_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/linkedlist/Exec_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/linkedlist/Josepfu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/linkedlist/SingleLinkedListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/lru/LRUCacheDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/prim/MendRoadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/recursion/MiGongDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/recursion/Queue8Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/search/BinarySearchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/search/Exec_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/search/Exec_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/search/Exec_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/search/FindMaxDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/search/InsertValueSearchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/search/package.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/slidingwindow/SlidingWindowDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/sort/BubbleSortDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/sort/InsertSortDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/sort/MergeSortDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/sort/QuickSortDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/sort/RadixSortDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/sort/SelectSortDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/sort/ShellSortDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/stack/ArrayStackDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/stack/CalculateDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/stack/Exec_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/stack/PolandNotationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/stack/SingleLinkedStackDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/string/StringDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/thread/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/thread/ProductorAndComsumerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/thread/ProductorAndComsumerDemoForLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/thread/ThreadAlternatePrintDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/tree/ArrBinaryTreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/tree/BinaryTreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/tree/Exec_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/tree/Exec_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/tree/Exec_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/tree/Exec_04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/tree/Exec_05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/tree/Exec_06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/tree/HeadSortDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mark/tree/threadedbinarytree/ThreadedBinaryTreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/springboot/mark/BinaryTreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/springboot/mark/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/springboot/mark/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/springboot/mark/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/leetcode/Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/leetcode/Exec_1101$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/leetcode/Exec_1101.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/leetcode/Exec_1101_demo$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/leetcode/Exec_1101_demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/leetcode/FindMedianSortedArrays.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/leetcode/LongestPalindrome_5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/leetcode/UnionFindSet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/leetcode/UnionFindSetDemo$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/leetcode/UnionFindSetDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/avltree/AVLTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/avltree/AVLTreeDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/avltree/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/binarysorttree/BinarySortTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/binarysorttree/BinarySortTreeDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/binarysorttree/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/cas/Atomic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/cas/CompareAndSwap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/cas/CompareAndSwapDemo$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/cas/CompareAndSwapDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/cas/Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/dac/HanoitowerDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/dijkstra/DijkstraDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/dijkstra/Graph.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/dijkstra/VisitedVertex.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/dynamic/Exec_01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/dynamic/Exec_02.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/dynamic/Exec_03.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/dynamic/Exec_04.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/dynamic/Exec_05.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/dynamic/Exec_06.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/dynamic/Exec_07.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/dynamic/KnapsackProblemDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/dynamic/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/exec/Exec_01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/floyd/FloydDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/floyd/Graph.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/graph/Graph.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/graph/GraphDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/greedy/GreedySetCoverDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/hashtab/Emp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/hashtab/EmpSingleLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/hashtab/HashTab.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/hashtab/HashTabDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/horse/HorseChessBoardDemo$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/horse/HorseChessBoardDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/huffmantree/HuffmanTreeDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/huffmantree/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/kmp/KmpDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/kruskal/BusStopCaseDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/kruskal/EData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/kruskal/Grap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/linkedlist/Boy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/linkedlist/CircleSingleLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/linkedlist/DoubleLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/linkedlist/DoubleLinkedListDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/linkedlist/Exec_01$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/linkedlist/Exec_01$SingleLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/linkedlist/Exec_01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/linkedlist/Exec_02.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/linkedlist/Exec_03.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/linkedlist/HeroNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/linkedlist/HeroNode2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/linkedlist/Josepfu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/linkedlist/SingleLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/linkedlist/SingleLinkedListDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/lru/DoubleLinkedNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/lru/LRUCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/lru/LRUCacheDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/prim/Graph.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/prim/MendRoadDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/prim/MinTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/recursion/MiGongDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/recursion/Queue8Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/search/BinarySearchDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/search/Exec_01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/search/Exec_02.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/search/Exec_03.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/search/FindMaxDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/search/InsertValueSearchDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/slidingwindow/SlidingWindowDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/sort/BubbleSortDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/sort/InsertSortDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/sort/MergeSortDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/sort/QuickSortDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/sort/RadixSortDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/sort/SelectSortDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/sort/ShellSortDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/stack/ArrayStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/stack/ArrayStack2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/stack/ArrayStackDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/stack/CalculateDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/stack/Exec_01$GetMinStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/stack/Exec_01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/stack/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/stack/Operation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/stack/PolandNotationDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/stack/SingleLinkedStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/stack/SingleLinkedStackDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/string/StringDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/thread/Alternate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/thread/Clerk.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/thread/Comsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/thread/Demo$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/thread/Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/thread/Productor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/thread/ProductorAndComsumerDemoForLock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/thread/ThreadAlternatePrintDemo$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/thread/ThreadAlternatePrintDemo$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/thread/ThreadAlternatePrintDemo$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/thread/ThreadAlternatePrintDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/tree/ArrBinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/tree/ArrBinaryTreeDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/tree/BinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/tree/BinaryTreeDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/tree/Exec_01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/tree/Exec_02.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/tree/Exec_03.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/tree/Exec_04.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/tree/Exec_05.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/tree/Exec_06.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/tree/HeadSortDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/tree/HeroNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/tree/threadedbinarytree/HeroNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/tree/threadedbinarytree/ThreadedBinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/mark/tree/threadedbinarytree/ThreadedBinaryTreeDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/springboot/mark/BinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/springboot/mark/BinaryTreeDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/springboot/mark/HeroNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/springboot/mark/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/springboot/mark/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/springboot/mark/TestController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/学习积累/Java高频面试总结.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/学习积累/NIO.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/学习积累/String.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/学习积累/juc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/学习积累/jvm.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/学习积累/集合总结.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,16 +78,17 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaProject\myspringboot\src\main\java\cn\mark\thread" />
-      <recent name="D:\IdeaProject\myspringboot\src\main\java\cn\springboot\mark" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProject\myspringboot\学习积累" />
+      <recent name="D:\IdeaProject\myspringboot" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.mark.thread" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IdeaProject\myspringboot\学习积累" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IdeaProject\myspringboot" />
+      <recent name="D:\IdeaProject\myspringboot\src\main\java\cn\mark\thread" />
+      <recent name="D:\IdeaProject\myspringboot\src\main\java\cn\springboot\mark" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MergeSortDemo">
@@ -627,7 +409,7 @@
       <workItem from="1585889250567" duration="14375000" />
       <workItem from="1586160317112" duration="50636000" />
       <workItem from="1586943088362" duration="3312000" />
-      <workItem from="1586947786411" duration="15723000" />
+      <workItem from="1586947786411" duration="16277000" />
     </task>
     <servers />
   </component>
