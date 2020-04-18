@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7423afb7-0c56-4590-9ee5-ad1efdf7f4f1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-    </list>
+    <list default="true" id="7423afb7-0c56-4590-9ee5-ad1efdf7f4f1" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +73,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34792626" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -409,7 +407,7 @@
       <workItem from="1585889250567" duration="14375000" />
       <workItem from="1586160317112" duration="50636000" />
       <workItem from="1586943088362" duration="3312000" />
-      <workItem from="1586947786411" duration="16277000" />
+      <workItem from="1586947786411" duration="16923000" />
     </task>
     <servers />
   </component>
@@ -469,10 +467,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1868" height="514" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587120783746" />
-    <state x="461" y="0" key="SettingsEditor" timestamp="1586947649837">
+    <state x="461" y="0" key="SettingsEditor" timestamp="1587202501997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586947649837" />
+    <state x="461" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587202501997" />
     <state x="645" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1585132547135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
