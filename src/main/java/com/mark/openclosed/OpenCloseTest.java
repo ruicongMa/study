@@ -4,7 +4,7 @@ package com.mark.openclosed;
  * @author Mark
  * @date 2020/4/21 21:39
  */
-public class Test {
+public class OpenCloseTest {
 
     public static void main(String[] args) {
         ICourse javaCourse = new JavaCourse(1, "Java架构师课程", 100d);
