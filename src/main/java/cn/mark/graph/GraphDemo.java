@@ -127,7 +127,7 @@ class Graph {
         //获取节点v的第一个邻接节点w
         int w = getFirstNeighbour(v);
         while (w != -1) {
-            //w存在且为被访问过，则对w进行深度优先遍历递归
+            //w存在且未被访问过，则对w进行深度优先遍历递归
             if (!isVisited[w]) {
                 dfs(isVisited, w);
             }
