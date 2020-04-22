@@ -27,7 +27,9 @@ public class DependenceInversionTest {
 
         //方式二：通过构造器注入
         mark = new Mark(new JavaCourse());
+        mark.study();
         mark = new Mark(new PythonCourse());
+        mark.study();
 
         System.out.println("==================");
 

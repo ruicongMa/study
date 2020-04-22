@@ -30,7 +30,7 @@ public class Mark {
     private ICourse iCourse;
 
     public Mark(ICourse iCourse) {
-        iCourse.study();
+        this.iCourse = iCourse;
     }
 
     //方式二通过Setter注入
