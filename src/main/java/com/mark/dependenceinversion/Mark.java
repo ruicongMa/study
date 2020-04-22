@@ -26,14 +26,14 @@ public class Mark {
         iCourse.study();
     }
 
-    //方式二通过构造器注入
     private ICourse iCourse;
 
+    //方式二通过构造器注入
     public Mark(ICourse iCourse) {
         this.iCourse = iCourse;
     }
 
-    //方式二通过Setter注入
+    //方式三通过Setter注入
     public void setICourse(ICourse iCourse) {
         this.iCourse = iCourse;
     }
