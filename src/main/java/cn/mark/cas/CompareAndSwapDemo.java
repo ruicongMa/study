@@ -17,8 +17,10 @@ public class CompareAndSwapDemo {
                 @Override
                 public void run() {
                     int expectedValue = cas.get();
-                    boolean b = cas.compareAndSet(expectedValue, (int) Math.random() * 101);
-                    System.out.println(b);
+                    boolean b = cas.compareAndSet(expectedValue, (int) (Math.random() * 100));
+                    if(b){
+                        System.out.println(b + ",num = " + expectedValue);
+                    }
                 }
             }).start();
         }
