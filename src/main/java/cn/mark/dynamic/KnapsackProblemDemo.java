@@ -16,7 +16,7 @@ public class KnapsackProblemDemo {
         //背包的容量
         int m = 4;
         //物品的个数
-        int n = price.length;
+        int n = 3;
 
         //创建二维数组v[i][j]表示前i个物品中能够装入容量为j的背包中的最大价值
         int[][] v = new int[n + 1][m + 1];

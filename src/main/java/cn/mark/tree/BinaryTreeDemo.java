@@ -160,7 +160,7 @@ class BinaryTree {
         }
     }
 
-    //从上往下打印二叉树
+    //从上往下打印二叉树->层次遍历
     public List<HeroNode> buildFromTopToButtom() {
         List<HeroNode> list = new ArrayList<>();
         Queue<HeroNode> queue = new LinkedList<>();
