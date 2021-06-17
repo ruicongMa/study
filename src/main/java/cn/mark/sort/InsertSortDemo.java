@@ -16,8 +16,24 @@ public class InsertSortDemo {
 
     public static void main(String[] args) {
         int[] arr = {2, 3, 1, -2, -1};
-        insertSort(arr);
+        // insertSort(arr);
+        insertSort2(arr);
         System.out.println(Arrays.toString(arr));
+    }
+
+    public static void insertSort2(int[] arr) {
+        for (int i = 1; i < arr.length; i++) {
+            int insertValue = arr[i];
+            int insertIndex = i - 1;
+            for (; insertIndex >= 0; insertIndex--) {
+                if (insertValue > arr[insertIndex]) {
+                    break;
+                } else {
+                    arr[insertIndex + 1] = arr[insertIndex];
+                }
+            }
+            arr[insertIndex + 1] = insertValue;
+        }
     }
 
     /**

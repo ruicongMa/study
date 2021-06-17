@@ -15,11 +15,12 @@ public class ThreadAlternatePrintDemo {
     public static void main(String[] args) {
 
         final Alternate alternate = new Alternate();
+        int count = 2;
 
         new Thread(new Runnable() {
             @Override
             public void run() {
-                for (int i = 1; i <= 5; i++) {
+                for (int i = 1; i <= count; i++) {
                     alternate.printA(i);
                 }
             }
@@ -28,7 +29,7 @@ public class ThreadAlternatePrintDemo {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                for (int i = 1; i <= 5; i++) {
+                for (int i = 1; i <= count; i++) {
                     alternate.printB(i);
                 }
             }
@@ -37,7 +38,7 @@ public class ThreadAlternatePrintDemo {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                for (int i = 1; i <= 5; i++) {
+                for (int i = 1; i <= count; i++) {
                     alternate.printC(i);
                 }
             }
@@ -54,8 +55,8 @@ class Alternate {
     private Condition conditionC = lock.newCondition();
 
     public void printA(int totalLoop) {
+        lock.lock();
         try {
-            lock.lock();
             if (num != 1) {
                 conditionA.await();
             }
@@ -72,8 +73,8 @@ class Alternate {
     }
 
     public void printB(int totalLoop) {
+        lock.lock();
         try {
-            lock.lock();
             if (num != 2) {
                 conditionB.await();
             }
@@ -90,8 +91,8 @@ class Alternate {
     }
 
     public void printC(int totalLoop) {
+        lock.lock();
         try {
-            lock.lock();
             if (num != 3) {
                 conditionC.await();
             }

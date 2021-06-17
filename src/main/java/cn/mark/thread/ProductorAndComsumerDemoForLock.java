@@ -81,7 +81,7 @@ class Clerk {
     public void set() {
         lock.lock();//一定要放在try外边，防止加锁失败后，进入finally里释放锁，底层会判断当前线程是否持有锁，如果未持有锁，则抛异常。
         try {
-            while (productNum >= 10) {//采用while，而不是if,防止线程虚假唤醒
+            while (productNum >= 2) {//采用while，而不是if,防止线程虚假唤醒
                 System.out.println("货已满~");
                 try {
                     condition.await();

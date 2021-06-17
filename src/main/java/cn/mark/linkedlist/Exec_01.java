@@ -29,10 +29,11 @@ public class Exec_01 {
         singleLinkedList.add(new Node(2));
         singleLinkedList.add(new Node(3));
         singleLinkedList.add(new Node(4));
-        singleLinkedList.add(new Node(5));
-        singleLinkedList.add(new Node(6));
-        singleLinkedList.add(new Node(7));
-        singleLinkedList.add(new Node(8));
+        // singleLinkedList.add(new Node(5));
+        // singleLinkedList.add(new Node(6));
+        // singleLinkedList.add(new Node(7));
+        // singleLinkedList.add(new Node(8));
+        // singleLinkedList.add(new Node(9));
 
         //打印原始链表
         singleLinkedList.list();
@@ -48,7 +49,7 @@ public class Exec_01 {
         // singleLinkedList.reverse2(singleLinkedList.getHead());
 
         // Node node = singleLinkedList.reverseKGroup(singleLinkedList.getHead().next, 3);
-        Node node = singleLinkedList.solve(singleLinkedList.getHead().next, 3);
+        Node node = singleLinkedList.solve(singleLinkedList.getHead().next, 2);
         System.out.println(node);
     }
 

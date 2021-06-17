@@ -1,9 +1,6 @@
 package cn.mark.thread;
 
-import java.util.concurrent.Callable;
-import java.util.concurrent.Executor;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.*;
 
 /**
  * @author Mark
@@ -11,22 +8,25 @@ import java.util.concurrent.Executors;
  */
 public class Demo {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
         // test();
 
         ExecutorService executorService = Executors.newFixedThreadPool(5);
 
-        executorService.submit(new Callable<Integer>() {
+        Future<Integer> future = executorService.submit(new Callable<Integer>() {
             @Override
             public Integer call() throws Exception {
                 System.out.println("call");
                 int sum = 0;
-                for(int i=0;i<=100;i++){
-                    sum+=i;
+                for (int i = 0; i <= 100; i++) {
+                    sum += i;
                 }
                 return sum;
             }
         });
+
+        Integer integer = future.get();
+        System.out.println(integer);
 
         executorService.shutdown();
     }
