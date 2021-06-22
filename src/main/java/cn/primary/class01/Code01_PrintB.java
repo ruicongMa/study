@@ -9,7 +9,7 @@ package cn.primary.class01;
 public class Code01_PrintB {
 
     public static void main(String[] args) {
-        print(127);
+        print(63);
         // print(~-5 + 1);
         // System.out.println(Integer.MIN_VALUE);
         // print(Integer.MIN_VALUE);

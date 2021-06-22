@@ -25,17 +25,21 @@ public class Test {
         // });
         // System.out.println(list);
 
-        System.out.println(calc(89));
-        String patt = "^x*(x|(yx)+)$";
-        String str = "yxx";
-        boolean matches = str.matches(patt);
-        System.out.println(matches);
+        // System.out.println(calc(89));
+        // String patt = "^x*(x|(yx)+)$";
+        // String str = "yxx";
+        // boolean matches = str.matches(patt);
+        // System.out.println(matches);
+
+        int a = 7;
+        System.out.println(a % 64);
+        System.out.println(a & 63);
     }
 
-    public static int calc(int x){
-        if(x <= 0){
+    public static int calc(int x) {
+        if (x <= 0) {
             return x;
-        }else {
+        } else {
             return (x + 1) + calc(x - 2);
         }
     }
