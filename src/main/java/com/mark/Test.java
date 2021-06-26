@@ -31,9 +31,10 @@ public class Test {
         // boolean matches = str.matches(patt);
         // System.out.println(matches);
 
-        int a = 7;
+        int a = 65;
         System.out.println(a % 64);
         System.out.println(a & 63);
+        System.out.println(0 ^ 0);
     }
 
     public static int calc(int x) {
