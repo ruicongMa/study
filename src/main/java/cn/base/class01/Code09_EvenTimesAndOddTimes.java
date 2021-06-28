@@ -64,7 +64,14 @@ public class Code09_EvenTimesAndOddTimes {
         // System.out.println(b);
         // System.out.println(a & b);
         // System.out.println(11 ^ -11);
-        int num = 15;
-        System.out.println(bit1Count(num));
+        // int num = 15;
+        // System.out.println(bit1Count(num));
+
+        int a = 11;
+        int b = 3;
+        // 1011
+        // 0011
+        // 1000 = 8
+        System.out.println(a ^ b);
     }
 }
