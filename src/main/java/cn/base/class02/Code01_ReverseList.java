@@ -38,25 +38,34 @@ public class Code01_ReverseList {
         // }
         // System.out.println();
 
-        DoubleNode doubleNode1 = new DoubleNode(1);
-        doubleNode1.next = new DoubleNode(2);
-        doubleNode1.next.last = doubleNode1;
-        doubleNode1.next.next = new DoubleNode(3);
-        doubleNode1.next.next.last = doubleNode1.next;
+        // DoubleNode doubleNode1 = new DoubleNode(1);
+        // doubleNode1.next = new DoubleNode(2);
+        // doubleNode1.next.last = doubleNode1;
+        // doubleNode1.next.next = new DoubleNode(3);
+        // doubleNode1.next.next.last = doubleNode1.next;
+        //
+        // DoubleNode head = reverseDoubleLinkedList(doubleNode1);
+        // DoubleNode tail = null;
+        // while (head != null) {
+        //     System.out.print(head.val + " ");
+        //     tail = head;
+        //     head = head.next;
+        // }
+        // System.out.println();
+        // while (tail != null) {
+        //     System.out.print(tail.val + " ");
+        //     tail = tail.last;
+        // }
+        // System.out.println();
 
-        DoubleNode head = reverseDoubleLinkedList(doubleNode1);
-        DoubleNode tail = null;
-        while (head != null) {
-            System.out.print(head.val + " ");
-            tail = head;
-            head = head.next;
-        }
-        System.out.println();
-        while (tail != null) {
-            System.out.print(tail.val + " ");
-            tail = tail.last;
-        }
-        System.out.println();
+        Node node1 = new Node(1);
+        Node node2 = new Node(2);
+        Node node3 = new Node(3);
+        node1.next = node2;
+        node2.next = node3;
+
+        // node3 = null;
+        System.out.println(node1);
     }
 
     public static class DoubleNode {
