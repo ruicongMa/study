@@ -1,8 +1,5 @@
 package cn.springboot.mark;
 
-import java.math.BigDecimal;
-import java.util.HashMap;
-
 /**
  * @author Mark
  * @create 2020/3/7
@@ -22,8 +19,23 @@ public class Test {
         // String put = map.put("a", "bbb");
         // System.out.println(put);
 
-        BigDecimal price = new BigDecimal(100);
-        price = price.add(BigDecimal.valueOf(200));
-        System.out.println(price);
+        // BigDecimal price = new BigDecimal(100);
+        // price = price.add(BigDecimal.valueOf(200));
+        // System.out.println(price);
+        //
+        // Person person = new Person(1L, "lisi");
+        // person.say();
+        //
+        // Person zhaoliu = Person.builder().id(2L).name("zhaoliu").build();
+        // System.out.println(zhaoliu);
+
+        // System.out.println(Integer.toBinaryString(10));
+        // System.out.println(Integer.toHexString(10));
+        // System.out.println(Integer.toBinaryString(2));
+        // System.out.println(Integer.toBinaryString(15));
+        // System.out.println(2 & 15);
+
+        System.out.println(Integer.parseInt("0xff"));
+
     }
 }

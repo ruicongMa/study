@@ -1,9 +1,12 @@
 package cn.springboot.mark;
 
+import lombok.Builder;
+
 /**
  * @author Mark
  * @create 2017/6/5
  */
+@Builder
 public class Person {
 
     private Long id;
@@ -30,16 +33,25 @@ public class Person {
         this.name = name;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        System.out.println("person equals()...");
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+    // public Person() {
+    // }
 
-        Person person = (Person) o;
-
-        if (id != null ? !id.equals(person.id) : person.id != null) return false;
-        return name != null ? name.equals(person.name) : person.name == null;
+    protected void say() {
+        System.out.println("protected void say");
     }
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
+
+    public class Ha {
+
+        public void say() {
+            Person.this.say();
+        }
+    }
 }

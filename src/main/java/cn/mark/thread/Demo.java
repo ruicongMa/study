@@ -13,22 +13,38 @@ public class Demo {
 
         ExecutorService executorService = Executors.newFixedThreadPool(5);
 
-        Future<Integer> future = executorService.submit(new Callable<Integer>() {
-            @Override
-            public Integer call() throws Exception {
-                System.out.println("call");
-                int sum = 0;
-                for (int i = 0; i <= 100; i++) {
-                    sum += i;
-                }
-                return sum;
-            }
-        });
+        // Future<Integer> future = executorService.submit(new Callable<Integer>() {
+        //     @Override
+        //     public Integer call() throws Exception {
+        //         System.out.println("call");
+        //         int sum = 0;
+        //         for (int i = 0; i <= 100; i++) {
+        //             sum += i;
+        //         }
+        //         return sum;
+        //     }
+        // });
+        //
+        // Integer integer = future.get();
+        // System.out.println(integer);
+        //
+        // executorService.shutdown();
 
-        Integer integer = future.get();
-        System.out.println(integer);
+        // executorService.execute(()->{
+        //     int i = 10 / 0;
+        // });
+        // executorService.execute(()->{
+        //     int i = 10 / 0;
+        // });
 
-        executorService.shutdown();
+        try {
+            int i = 10 / 0;
+            System.out.println(1);
+        } catch (Exception e) {
+        } finally {
+            System.out.println(2);
+        }
+        System.out.println(3);
     }
 
     public static void test() {

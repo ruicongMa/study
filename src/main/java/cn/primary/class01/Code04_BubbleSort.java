@@ -20,7 +20,7 @@ public class Code04_BubbleSort {
         int N = arr.length;
         // 外层循环控制循环多少次
         for (int end = N - 1; end >= 0; end--) {
-            // 内存循环控制两两交换
+            // 内层循环控制两两交换
             // 0 1  1 2  2 3 ...
             for (int second = 1; second <= end; second++) {
                 if (arr[second - 1] > arr[second]) {

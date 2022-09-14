@@ -28,7 +28,7 @@ public class TestThreadAlternatePrint {
                         c1.await();
                     }
                     System.out.print(c);
-                    TimeUnit.SECONDS.sleep(1);
+                    TimeUnit.MILLISECONDS.sleep(500);
                     num = 2;
                     c2.signal();
                 }
@@ -47,7 +47,7 @@ public class TestThreadAlternatePrint {
                         c2.await();
                     }
                     System.out.print(c + " ");
-                    TimeUnit.SECONDS.sleep(1);
+                    TimeUnit.MILLISECONDS.sleep(500);
                     num = 1;
                     c1.signal();
                 }
